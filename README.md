@@ -1,14 +1,15 @@
 # Transfer Learning for Sentiment Analysis
 
-This Jupyter notebook explores the application of transfer learning techniques for sentiment analysis. The primary goal is to leverage pretrain word embedding and pretrain language models and adapt them to our sentiment anaysis task for multiple domains.
+This Jupyter notebook explores the use of transfer learning techniques for sentiment analysis. The goal is to use pre-trained word embeddings and language models to train a sentiment analysis model for multiple domains.
 
-## Project Structures
+The notebook is structured as follows:
 
-* **Google Drive Import:** This section is dedicated to importing necessary datasets from Google Drive. Ensure you have the required datasets in your drive and provide necessary permissions.
-* **Distribution of Sentiment Labels:** Before diving into model training, it's crucial to understand the distribution of sentiment labels in our training data. This section provides a visual overview of the dataset's composition.
-* **ETL Pipeline:** Data is the backbone of any machine learning project. This section details the Extract, Transform, Load (ETL) process, ensuring that the data is clean and ready for model training. The notebook employs the `DataPreprocessor` class to facilitate these transformations.
-* **Data Sampling, Train-Test Split, and Preparation:** Proper data splitting and preparation are essential for unbiased model evaluation. This section covers the steps involved in sampling the data, splitting it into training and test sets, and additional preparations for model training.
-* **TFIDF - SUPPORT VECTOR MACHINE TRAINING:** This section covers the baseline model for the project.
-* **TrainEval_Word2Vec_BiGRU_LSTM_Attention_EarlyStop:** This is the pretrain wordembedding that compared the performance of the `Word2vec`, `Fasttest`, and `Glove` Shared Layer.
-* **DistilBERT:** This is the pretrain language model that utilise the performance of the `distilbert`.
-* **Statistic:** This is the section where the statistic tests experiment.
+* **Google Drive Import:** This section imports the necessary datasets from Google Drive.
+* **Distribution of Sentiment Labels:** This section visualizes the distribution of sentiment labels in the training data.
+* **ETL Pipeline:** This section cleans and prepares the data for model training.
+* **Data Sampling, Train-Test Split, and Preparation:** This section splits the data into training and test sets and prepares the data for model training.
+* **TFIDF - SUPPORT VECTOR MACHINE TRAINING:** This section trains a baseline model using TFIDF and support vector machines.
+* **TrainEval_Word2Vec_BiGRU_LSTM_Attention_EarlyStop:** This section trains a model using pre-trained word embeddings and BiGRU, LSTM, and attention layers.
+* **DistilBERT:** This section trains a model using the DistilBERT pre-trained language model.
+* **Statistic:** This section performs statistical tests on the results of the experiments.
+
