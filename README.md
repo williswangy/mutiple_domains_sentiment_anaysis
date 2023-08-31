@@ -2,7 +2,7 @@
 
 This Jupyter notebook explores the application of transfer learning techniques for sentiment analysis. The primary goal is to leverage pre-trained models and adapt them to our specific task, making the training process more efficient and potentially achieving better results.
 
-## Contents
+## Project Structures
 
 * **Google Drive Import:** This section is dedicated to importing necessary datasets from Google Drive. Ensure you have the required datasets in your drive and provide necessary permissions.
 * **Distribution of Sentiment Labels:** Before diving into model training, it's crucial to understand the distribution of sentiment labels in our training data. This section provides a visual overview of the dataset's composition.
