@@ -1,4 +1,5 @@
 Transfer Learning for Sentiment Analysis
+
 This Jupyter notebook explores the application of transfer learning techniques for sentiment analysis. The primary goal is to leverage pre-trained models and adapt them to our specific task, making the training process more efficient and potentially achieving better results.
 
 Contents:
